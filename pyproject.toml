@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ra-distill"
+version = "0.1.0"
+description = "PyTorch implementation of RA-Distill for missing-modality diagnosis"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [
+  {name = "RA-Distill Authors"}
+]
+dependencies = [
+  "torch>=1.13",
+  "numpy>=1.23",
+  "tqdm>=4.64",
+]
+
+[tool.setuptools.packages.find]
+include = ["ra_distill*"]
