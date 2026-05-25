@@ -4,8 +4,6 @@ This repository provides the PyTorch implementation of **RA-Distill**:
 
 > Retrieve to Reconstruct, Distill to Diagnose: A Unified Retrieval-Augmented Framework for Missing-Modality Skin Lesion Diagnosis.
 
-RA-Distill is a retrieval-augmented framework for robust skin lesion diagnosis when one modality is unavailable. Given an incomplete sample, the available modality retrieves similar complete training cases from a retrieval representation bank. The paired missing-modality representations of the retrieved cases are then used as external evidence for query-conditioned missing-modality reconstruction. A full-modality teacher further guides the retrieval-augmented student through logit distillation.
-
 ## Repository Structure
 
 ```text
