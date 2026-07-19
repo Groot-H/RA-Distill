@@ -1,6 +1,6 @@
 # RA-Distill-Lesion
 
-This repository provides the PyTorch implementation of **RA-Distill-Lesion**:
+This repository provides the PyTorch implementation of the paper:
 
 > Retrieval-Augmented Reconstruction with Distillation for Robust Skin Lesion Diagnosis under Missing Modalities.
 
