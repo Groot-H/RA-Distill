@@ -1,4 +1,4 @@
-# RA-Distill-Lesion
+# RA-Distill
 
 This repository provides the PyTorch implementation of the paper:
 
