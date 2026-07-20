@@ -9,7 +9,7 @@ RA-Distill is a retrieval-augmented framework for robust skin lesion diagnosis w
 ## Repository Structure
 
 ```text
-RA-Distill-Lesion/
+RA-Distill/
   ra_distill/
     models.py        # teacher model and RA-Distill student
     retrieval.py     # retrieval representation bank and top-k retrieval
@@ -27,8 +27,8 @@ RA-Distill-Lesion/
 ## Installation
 
 ```bash
-git clone https://github.com/Groot-H/RA-Distill-Lesion.git
-cd RA-Distill-Lesion
+git clone https://github.com/Groot-H/RA-Distill.git
+cd RA-Distill
 pip install -r requirements.txt
 ```
 
